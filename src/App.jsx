@@ -1,9 +1,12 @@
 import React from 'react'
+import NavBar from './components/NavBar'
+import HeroSection from './sections/HeroSection'
 
 function App() {
   return (
-    <div className='border border-gray-300 p-4'>
-      <h1 className='text-xl font-bold te'>Hello World</h1>
+    <div>
+      <NavBar/>
+      <HeroSection/>
     </div>
   )
 }
